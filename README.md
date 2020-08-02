@@ -8,6 +8,9 @@ Data was retreived from the WAV using the following command HT [@m0rb](https://t
 minimodem -r -f micro-mono.wav -M 2400 -S 1200 -R 44100 300 > micro.bin
 ~~~
 
+## BASIC program
+
+![](https://raw.githubusercontent.com/8bitkick/MakingTheMostOfYourMicro/master/message.png)
 
 ## Transmitted data
 
@@ -43,5 +46,7 @@ R+ral   thousand  letters arriving each  week we hope you'll forgive us if we do
 
 ## Running the program
 
-The audio either needs to be run through MakeUEF to create a UEF file playable on an emulator like JSbeeb, or the [binary data](https://github.com/8bitkick/MakingTheMostOfYourMicro/blob/master/micro.bin) in this repo manually stripped of the Acorn Cassette Format encoding so that the BASIC program can be loaded directly into memory. TBD
+The audio either needs to be run through MakeUEF to create a UEF file playable on an emulator like JSbeeb, or the [binary data](https://github.com/8bitkick/MakingTheMostOfYourMicro/blob/master/micro.bin) in this repo manually stripped of the Acorn Cassette Format encoding so that the BASIC program can be loaded directly into memory. 
+
+However the BBC have kindly done this for us [as an autoloader for the JSbeeb emulator](https://clp.bbcrewind.co.uk/jsbeeb/index.html?disc1=CLP0038.ssd&loadBasic=%2Fbeeb%2Floader%2Faebb2c9c-4556-d3ad-cda7-f090d0bf7cc8&autorun=1&model=Master)
 
