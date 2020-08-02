@@ -5,4 +5,4 @@ Ripped using
 ~~~
 minimodem -r -f micro-mono.wav -M 2400 -S 1200 -R 44100 300 > micro.bin
 ~~~
-HT @m0rb
+HT [@m0rb](https://twitter.com/m0rb/status/1289774206712872960?s=20)
