@@ -1,7 +1,9 @@
 # MakingTheMostOfYourMicro
-BBC Micro BASIC program transmitted at the end of the television program Making The Most Of Your Micro Episode 10
+A BBC Micro BASIC program was transmitted over audio at the end of the television program Making The Most Of Your Micro Episode 10.
 
-Ripped using the following command HT [@m0rb](https://twitter.com/m0rb/status/1289774206712872960?s=20)
+The computer 'cassette' audio is in this repo as a [WAV](https://github.com/8bitkick/MakingTheMostOfYourMicro/blob/master/micro.wav)
+
+Data was retreived from the WAV using the following command HT [@m0rb](https://twitter.com/m0rb/status/1289774206712872960?s=20)
 ~~~
 minimodem -r -f micro-mono.wav -M 2400 -S 1200 -R 44100 300 > micro.bin
 ~~~
